@@ -1,3 +1,6 @@
 package com.mahmoud.mohammed.movieapp.base
 
-interface BasePresenter
+interface BasePresenter<tView> {
+    fun setView(view: tView)
+    fun removeView()
+}
