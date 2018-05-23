@@ -1,7 +1,8 @@
-package com.mahmoud.mohammed.movieapp
+package com.mahmoud.mohammed.movieapp.activities
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.mahmoud.mohammed.movieapp.R
 
 class MainActivity : AppCompatActivity() {
 
