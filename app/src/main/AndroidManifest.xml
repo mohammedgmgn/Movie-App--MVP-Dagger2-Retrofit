@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activities.view.ShowingMoviesListActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.mahmoud.mohammed.movieapp.activities.ShowingMoviesList.ShowingMovieDetails.MovieDetailsActivity"></activity>
     </application>
 
 </manifest>
